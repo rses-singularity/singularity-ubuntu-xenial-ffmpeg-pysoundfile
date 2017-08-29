@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Image definition (used for bootstrapping)
-IMG_DEF="ubuntu-xenial-ffmpeg-pysoundfile.def"
+IMG_DEF=Singularity
 # Image file (populated during bootstrapping)
 IMG="${IMG_DEF%.*}.img"
 # Initial image size in MB (will shrink after bootstrapping)
